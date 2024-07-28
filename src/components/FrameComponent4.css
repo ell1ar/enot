@@ -1,0 +1,214 @@
+.h12 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.advantages-heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-5xl);
+}
+.arrow-icon {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  object-fit: contain;
+}
+.advantage-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) 0 0;
+}
+.inner {
+  width: 536px;
+  height: 246px;
+  position: relative;
+  box-shadow: 0 0 25px rgba(168, 168, 168, 0.1);
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.span5 {
+  color: var(--color-mediumseagreen-300);
+}
+.b8,
+.b9 {
+  position: relative;
+  z-index: 1;
+}
+.b8 {
+  width: 52px;
+  height: 59px;
+  display: inline-block;
+}
+.b9 {
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.div8 {
+  width: 472px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 24px;
+  font-family: var(--font-onest);
+  color: var(--color-gray-100);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.div7,
+.parent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.div7 {
+  box-shadow: 0 0 25px rgba(168, 168, 168, 0.1);
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-21xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  min-width: 402px;
+}
+.parent {
+  flex-direction: row;
+  min-width: 1071px;
+}
+.arrow-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumseagreen-300);
+  border: 2px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.arrow-icon1 {
+  position: absolute;
+  top: 16.9px;
+  left: 16px;
+  width: 20.3px;
+  height: 20.3px;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.arrow {
+  align-self: stretch;
+  height: 54px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumseagreen-300);
+  border: 2px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+}
+.advantage-items1 {
+  width: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) 0 0;
+  box-sizing: border-box;
+}
+.advantages-list {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-mediumseagreen-400);
+}
+.advantages-content,
+.advantages-content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.advantages-content {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-46xl);
+}
+.advantages-content-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1425px) {
+  .parent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .advantages-content-wrapper {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .h12 {
+    font-size: var(--font-size-21xl);
+  }
+  .b8 {
+    font-size: var(--font-size-19xl);
+  }
+  .div7 {
+    min-width: 100%;
+  }
+  .advantages-content {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .h12 {
+    font-size: var(--font-size-11xl);
+  }
+  .b8 {
+    font-size: var(--font-size-10xl);
+  }
+  .b9 {
+    font-size: var(--font-size-lg);
+  }
+  .div8 {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .advantages-content {
+    gap: var(--gap-base);
+  }
+}

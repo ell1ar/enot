@@ -1,0 +1,71 @@
+.icon-child,
+.requirement-icons-item {
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.requirement-icons-item {
+  width: 397px;
+  height: 192px;
+  box-shadow: 0 0 25px rgba(168, 168, 168, 0.1);
+  border-radius: var(--br-5xl);
+  max-width: 100%;
+}
+.icon-child {
+  height: 75px;
+  width: 75px;
+  box-shadow: 0 0 25px rgba(168, 168, 168, 0.25);
+  border-radius: var(--br-base);
+}
+.material-symbols-lightid-card-icon {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.icon2 {
+  box-shadow: 0 0 25px rgba(168, 168, 168, 0.25);
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  z-index: 1;
+}
+.h32 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.requirement-icons1 {
+  flex: 1;
+  box-shadow: 0 0 25px rgba(168, 168, 168, 0.1);
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-13xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  min-width: 298px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .h32 {
+    font-size: var(--font-size-lg);
+  }
+}

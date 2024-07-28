@@ -1,0 +1,90 @@
+.teenyiconspdf-solid,
+.teenyiconspdf-solid1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.legal-info-items,
+.policy-download-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.policy-download-icon {
+  gap: var(--gap-xl);
+}
+.legal-info-items {
+  padding: var(--padding-11xs) 0 0;
+}
+.div20,
+.div21 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  z-index: 1;
+}
+.legal-documents,
+.legal-info-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.legal-documents {
+  flex-direction: column;
+  gap: var(--gap-base);
+  max-width: calc(100% - 34px);
+}
+.legal-info-content {
+  flex-direction: row;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.icround-email-icon1,
+.mingcutetelegram-fill-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 1;
+}
+.contact-info,
+.legal-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.legal-info-container {
+  width: 1648px;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.legal-info-container-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 825px) {
+  .legal-info-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
