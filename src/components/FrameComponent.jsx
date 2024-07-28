@@ -19,13 +19,13 @@ const FrameComponent = ({ className = "", frameDivPadding }) => {
           <div className="legal-info-items">
             <div className="policy-download-icon">
               <img
-                className="teenyiconspdf-solid"
+                className="teenyiconspdf-solid10"
                 loading="lazy"
                 alt=""
                 src="/teenyiconspdfsolid.svg"
               />
               <img
-                className="teenyiconspdf-solid1"
+                className="teenyiconspdf-solid11"
                 loading="lazy"
                 alt=""
                 src="/teenyiconspdfsolid.svg"
@@ -33,21 +33,21 @@ const FrameComponent = ({ className = "", frameDivPadding }) => {
             </div>
           </div>
           <div className="legal-documents">
-            <div className="div41">Политика обработки персональных данных</div>
-            <div className="div42">
+            <div className="div93">Политика обработки персональных данных</div>
+            <div className="div94">
               Оператор персональных данных номер такой от числа такого
             </div>
           </div>
         </div>
-        <div className="contact-info">
+        <div className="contact-info1">
           <img
-            className="icround-email-icon2"
+            className="icround-email-icon9"
             loading="lazy"
             alt=""
             src="/icroundemail.svg"
           />
           <img
-            className="mingcutetelegram-fill-icon2"
+            className="mingcutetelegram-fill-icon9"
             loading="lazy"
             alt=""
             src="/mingcutetelegramfill.svg"

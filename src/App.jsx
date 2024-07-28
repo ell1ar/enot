@@ -5,9 +5,10 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Px from "./pages/Px";
+import Px1 from "./pages/px11";
+import Px2 from "./pages/px2";
 import Email1920Px from "./pages/email1920-px";
-import Email320Px from "./pages/email320-px";
+import Px from "./pages/Px";
 import Px1 from "./pages/px1";
 
 function App() {
@@ -30,15 +31,19 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/-1920-px":
+        title = "";
+        metaDescription = "";
+        break;
       case "/-email-1920-px":
         title = "";
         metaDescription = "";
         break;
-      case "/-email-320-px":
+      case "/1920-px":
         title = "";
         metaDescription = "";
         break;
-      case "/320-px":
+      case "/-1920-px1":
         title = "";
         metaDescription = "";
         break;
@@ -60,10 +65,11 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Px />} />
+      <Route path="/" element={<Px1 />} />
+      <Route path="/-1920-px" element={<Px2 />} />
       <Route path="/-email-1920-px" element={<Email1920Px />} />
-      <Route path="/-email-320-px" element={<Email320Px />} />
-      <Route path="/320-px" element={<Px1 />} />
+      <Route path="/1920-px" element={<Px />} />
+      <Route path="/-1920-px1" element={<Px1 />} />
     </Routes>
   );
 }

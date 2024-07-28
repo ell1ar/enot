@@ -1,210 +1,168 @@
-import FrameComponent6 from "../components/frame-component6";
-import FrameComponent5 from "../components/frame-component5";
-import CardHomeDesk from "../components/card-home-desk";
-import Component1 from "../components/component1";
-import Footer from "../components/footer";
-import PaymentInfoContainer from "../components/payment-info-container";
+import InputFields from "../components/input-fields";
+import Component from "../components/component";
+import FooterInfo from "../components/footer-info";
 import "./px1.css";
 
 const Px1 = () => {
   return (
-    <div className="px1">
-      <FrameComponent6 />
-      <FrameComponent5 />
-      <section className="frame-section">
-        <div className="wrapper1">
-          <h1 className="h1">А у нас лучше</h1>
-        </div>
-        <div className="frame-parent2">
-          <div className="frame-parent3">
-            <div className="parent1">
-              <div className="div10">
-                <div className="child3" />
-                <b className="working-hours-placeholder-container">
-                  <span>0</span>
-                  <span className="span">1</span>
-                </b>
-                <b className="b7">Работаем 24/7</b>
-                <div className="div11">
-                  <p className="p">Работаем круглые сутки и без выходных.</p>
-                  <p className="p1">Без праздников. В дождь и снег</p>
+    <div className="px2">
+      <section className="rectangle-parent2">
+        <div className="frame-child7" />
+        <div className="frame-child8" />
+        <img className="icon7" loading="lazy" alt="" src="/12-1-11@2x.png" />
+        <div className="links-container-parent">
+          <header className="links-container">
+            <div className="links-container-inner">
+              <div className="rectangle-parent3">
+                <div className="frame-child9" />
+                <div className="frame-parent4">
+                  <div className="logo-group">
+                    <a className="logo7">logo</a>
+                    <div className="frame-wrapper2">
+                      <div className="parent4">
+                        <a className="a24">Как получить</a>
+                        <a className="a25">Как вернуть</a>
+                        <a className="a26">О нас</a>
+                        <a className="a27">Пожаловаться</a>
+                        <a className="a28">Отписаться от услуг</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="contact-icons-container">
+                    <div className="contact-icons1">
+                      <img
+                        className="mingcutetelegram-fill-icon5"
+                        loading="lazy"
+                        alt=""
+                        src="/mingcutetelegramfill1.svg"
+                      />
+                      <img
+                        className="icround-email-icon5"
+                        loading="lazy"
+                        alt=""
+                        src="/icroundemail1.svg"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
-              <img
-                className="arrows-icon"
-                loading="lazy"
-                alt=""
-                src="/arrows.svg"
-              />
             </div>
-            <div className="div12">
-              <div className="wrapper-bg">
-                <img className="bg-icon" alt="" src="/bg1@2x.png" />
-              </div>
-              <div className="parent2">
-                <h1 className="h11">Уникальная технология</h1>
-                <div className="div13">
-                  <p className="p2">
-                    Наша система работает без звонков, полностью
-                    автоматизировано. Вам нужно только заполнить анкету. Дальше
-                    система сделает все сама
-                  </p>
-                  <p className="p3">и не будет вас беспокоить.</p>
-                </div>
-                <button className="button3">
-                  <b className="b8">Подать заявку</b>
-                </button>
-              </div>
-              <div className="frame-parent4">
-                <img
-                  className="group-icon"
-                  loading="lazy"
-                  alt=""
-                  src="/group1.svg"
-                />
-                <b className="b9">+486 Микрозаймов быстро и удобно</b>
-              </div>
-            </div>
-          </div>
-          <div className="rectangle-parent1">
-            <div className="frame-child5" />
-            <b className="working-hours-banner-container">
-              <span>0</span>
-              <span className="span1">1</span>
-            </b>
-            <b className="b10">Работаем 24/7</b>
-            <div className="div14">
-              <p className="p4">Работаем круглые сутки и без выходных.</p>
-              <p className="p5">Без праздников. В дождь и снег</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="px-inner">
-        <div className="frame-parent5">
-          <div className="parent3">
-            <h1 className="h12">Требования к заемщику</h1>
-            <div className="card-home-desk-parent">
-              <CardHomeDesk icon="/icon1.svg" prop="Паспорт РФ" />
-              <Component1
-                materialSymbolsLightidCar="/materialsymbolslightidcard1.svg"
-                prop="СНИЛС (опционально)"
-              />
-            </div>
-          </div>
-          <div className="first-row-separator-parent">
-            <Component1
-              materialSymbolsLightidCar="/gravityuiantennasignal1.svg"
-              prop="Доступ в интернет"
-              propFlex="1"
-            />
-            <CardHomeDesk
-              icon="/icon-11.svg"
-              prop="Банковская карта"
-              propFlex="0.9439"
-            />
-          </div>
-          <div className="parent4">
-            <Component1
-              materialSymbolsLightidCar="/materialsymbols18upratingrounded1.svg"
-              prop="Возраст от 18 лет"
-              propFlex="0.8144"
-            />
-            <div className="div15">
-              <div className="child4" />
-              <div className="icon-wrapper">
-                <div className="icon">
-                  <div className="icon-child" />
-                  <input className="fa6-solidmobile" type="checkbox" />
+            <button className="button10">
+              <a className="a29">Регистрация</a>
+            </button>
+          </header>
+          <div className="wrapper4">
+            <div className="div45">
+              <div className="child7" />
+              <InputFields />
+              <div className="address-title">
+                <div className="parent5">
+                  <h1 className="h17">Адрес регистрации и снилс</h1>
+                  <div className="address-details">
+                    <Component prop="Область" />
+                    <Component prop="Населенный пункт" />
+                    <input className="input1" placeholder="Улица" type="text" />
+                    <div className="div46">
+                      <div className="child8" />
+                      <div className="div47">Дом</div>
+                    </div>
+                    <div className="apartment-input">
+                      <div className="div48">
+                        <div className="child9" />
+                        <div className="div49">Квартира</div>
+                      </div>
+                      <div className="no-apartment">
+                        <input className="group-input1" type="checkbox" />
+                        <div className="wrapper5">
+                          <div className="div50">Нет квартиры</div>
+                        </div>
+                      </div>
+                    </div>
+                    <input
+                      className="input2"
+                      placeholder="Снилс (необязательно)"
+                      type="text"
+                    />
+                  </div>
+                  <button className="button11">
+                    <b className="b30">Далее</b>
+                  </button>
                 </div>
               </div>
-              <b className="b11">Мобильный телефон</b>
             </div>
           </div>
         </div>
       </section>
-      <section className="wrapper2">
-        <div className="div16">
-          <img className="bg-icon1" loading="lazy" alt="" src="/bg-11@2x.png" />
-          <h1 className="h13">О процентах</h1>
-          <div className="wrapper3">
-            <div className="div17">
-              <span>{`Проценты и пеня, начисленные по Договору потребительского займа, по закону не могут превышать `}</span>
-              <b className="b12">130%</b>
-              <span> от суммы займа.</span>
+      <div className="content-background" />
+      <footer className="footer3">
+        <div className="bg3" />
+        <div className="footer-content3">
+          <div className="frame-parent5">
+            <div className="logo-frame">
+              <h1 className="logo8">logo</h1>
             </div>
-          </div>
-          <div className="div18">
-            <span>{`Диапазон значений ПСК от `}</span>
-            <b className="b13">0,000%</b>
-            <span>{` до `}</span>
-            <b className="b14">292,000%</b>
-            <span>{`. Процентная ставка за пользование займом — `}</span>
-            <b className="b15">{`0,8% `}</b>
-            <span>{`в день; Пеня, начисленная за просрочку возврата займа рассчитывается по ставке `}</span>
-            <b className="b16">20%</b>
-            <span> годовых от суммы займа.</span>
-          </div>
-        </div>
-      </section>
-      <section className="px-child">
-        <div className="parent5">
-          <h1 className="h14">Частые вопросы</h1>
-          <div className="eventos-em-destaque-parent">
-            <div className="eventos-em-destaque">
-              <div className="eventos-em-destaque-child" />
-              <b className="b17">Какова стоимость услуги?</b>
-              <div className="div19">
-                Стоимость услуги всего 1875 рублей. Для вашего удобства оплата
-                услуги происходит в рассрочку: пять платежей по 375,00 рублей.
-                Оплачивая услугу, вы получаете доступ к функциональности сервиса
-                сроком на 1 год (365 дней) с момента активации услуги.
+            <div className="footer-links-parent">
+              <div className="footer-links1">
+                <div className="footer-links-list1">
+                  <div className="div51">Как получить</div>
+                  <div className="div52">Как вернуть</div>
+                  <div className="div53">О нас</div>
+                  <div className="div54">Пожаловаться</div>
+                  <div className="div55">Отписаться от услуг</div>
+                </div>
               </div>
-              <div className="group-div">
-                <div className="frame-child6" />
-                <img
-                  className="vector-icon"
-                  loading="lazy"
-                  alt=""
-                  src="/vector1.svg"
-                />
+              <button className="button12">
+                <b className="b31">Регистрация</b>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="footer-decoration">
+          <div className="footer-decoration-child" />
+        </div>
+        <FooterInfo />
+        <div className="footer-contacts">
+          <div className="footer-contact-details">
+            <div className="footer-document">
+              <div className="footer-document-link">
+                <div className="footer-document-icons">
+                  <img
+                    className="teenyiconspdf-solid2"
+                    loading="lazy"
+                    alt=""
+                    src="/teenyiconspdfsolid.svg"
+                  />
+                  <img
+                    className="teenyiconspdf-solid3"
+                    alt=""
+                    src="/teenyiconspdfsolid.svg"
+                  />
+                </div>
+              </div>
+              <div className="footer-legal">
+                <div className="div56">
+                  Политика обработки персональных данных
+                </div>
+                <div className="div57">
+                  Оператор персональных данных номер такой от числа такого
+                </div>
               </div>
             </div>
-            <div className="div20">
-              <div className="child5" />
-              <b className="b18">Как долго обрабатывается заявка?</b>
+            <div className="footer-social">
               <img
-                className="child6"
-                loading="lazy"
+                className="icround-email-icon6"
                 alt=""
-                src="/group-11.svg"
+                src="/icroundemail.svg"
               />
-            </div>
-            <div className="card-faq">
-              <div className="card-faq-child" />
-              <b className="b19">Как получить деньги?</b>
               <img
-                className="card-faq-item"
-                loading="lazy"
+                className="mingcutetelegram-fill-icon6"
                 alt=""
-                src="/group-2.svg"
-              />
-            </div>
-            <div className="info-card-icon">
-              <div className="info-card-icon-child" />
-              <b className="b20">Как остановить обработку заявки?</b>
-              <img
-                className="info-card-icon-item"
-                loading="lazy"
-                alt=""
-                src="/group-2.svg"
+                src="/mingcutetelegramfill.svg"
               />
             </div>
           </div>
         </div>
-      </section>
-      <Footer />
-      <PaymentInfoContainer />
+      </footer>
     </div>
   );
 };

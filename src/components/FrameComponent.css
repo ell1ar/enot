@@ -1,5 +1,5 @@
-.teenyiconspdf-solid,
-.teenyiconspdf-solid1 {
+.teenyiconspdf-solid10,
+.teenyiconspdf-solid11 {
   width: 20px;
   height: 20px;
   position: relative;
@@ -20,8 +20,8 @@
 .legal-info-items {
   padding: var(--padding-11xs) 0 0;
 }
-.div41,
-.div42 {
+.div93,
+.div94 {
   position: relative;
   line-height: 24px;
   font-weight: 500;
@@ -43,8 +43,8 @@
   gap: var(--gap-sm);
   max-width: 100%;
 }
-.icround-email-icon2,
-.mingcutetelegram-fill-icon2 {
+.icround-email-icon9,
+.mingcutetelegram-fill-icon9 {
   height: 24px;
   width: 24px;
   position: relative;
@@ -53,7 +53,7 @@
   min-height: 24px;
   z-index: 1;
 }
-.contact-info,
+.contact-info1,
 .legal-info-container {
   display: flex;
   flex-direction: row;
