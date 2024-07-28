@@ -8,7 +8,7 @@ const FrameComponent2 = ({ className = "" }) => {
     <div className={`borrower-content-wrapper ${className}`}>
       <div className="borrower-content">
         <div className="borrower-heading">
-          <h1 className="h13">Требования к заемщику</h1>
+          <h1 className="h18">Требования к заемщику</h1>
         </div>
         <div className="borrower-requirements">
           <div className="requirement-icons-parent">

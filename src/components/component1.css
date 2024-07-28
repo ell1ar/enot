@@ -1,0 +1,72 @@
+.child15,
+.icon-inner {
+  width: 140px;
+  height: 104px;
+  position: relative;
+  box-shadow: 0 0 9.12px rgba(168, 168, 168, 0.1);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.icon-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 9.12px rgba(168, 168, 168, 0.25);
+  border-radius: var(--br-5xs);
+  width: 100%;
+  height: 100%;
+}
+.material-symbols-lightid-card-icon1 {
+  position: absolute;
+  height: 47.37%;
+  width: 47.37%;
+  top: 26.32%;
+  right: 26.32%;
+  bottom: 26.32%;
+  left: 26.32%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.icon6 {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  box-shadow: 0 0 9.12px rgba(168, 168, 168, 0.25);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  z-index: 1;
+}
+.icon-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-19xl) 0 var(--padding-20xl);
+}
+.b54 {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  z-index: 1;
+}
+.div61 {
+  flex: 1;
+  box-shadow: 0 0 9.12px rgba(168, 168, 168, 0.1);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-smi) var(--padding-sm)
+    var(--padding-xs);
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}

@@ -6,7 +6,7 @@ const RequirementIcons1 = ({ className = "", icon, prop }) => {
     <div className={`requirement-icons ${className}`}>
       <div className="requirement-icons-child" />
       <div className="wrapper-icon">
-        <img className="icon1" loading="lazy" alt="" src={icon} />
+        <img className="icon2" loading="lazy" alt="" src={icon} />
       </div>
       <h3 className="h31">{prop}</h3>
     </div>

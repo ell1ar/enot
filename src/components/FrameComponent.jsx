@@ -1,9 +1,19 @@
+import { useMemo } from "react";
 import PropTypes from "prop-types";
 import "./FrameComponent.css";
 
-const FrameComponent = ({ className = "" }) => {
+const FrameComponent = ({ className = "", frameDivPadding }) => {
+  const frameDivStyle = useMemo(() => {
+    return {
+      padding: frameDivPadding,
+    };
+  }, [frameDivPadding]);
+
   return (
-    <div className={`legal-info-container-wrapper ${className}`}>
+    <div
+      className={`legal-info-container-wrapper ${className}`}
+      style={frameDivStyle}
+    >
       <div className="legal-info-container">
         <div className="legal-info-content">
           <div className="legal-info-items">
@@ -23,21 +33,21 @@ const FrameComponent = ({ className = "" }) => {
             </div>
           </div>
           <div className="legal-documents">
-            <div className="div20">Политика обработки персональных данных</div>
-            <div className="div21">
+            <div className="div41">Политика обработки персональных данных</div>
+            <div className="div42">
               Оператор персональных данных номер такой от числа такого
             </div>
           </div>
         </div>
         <div className="contact-info">
           <img
-            className="icround-email-icon1"
+            className="icround-email-icon2"
             loading="lazy"
             alt=""
             src="/icroundemail.svg"
           />
           <img
-            className="mingcutetelegram-fill-icon1"
+            className="mingcutetelegram-fill-icon2"
             loading="lazy"
             alt=""
             src="/mingcutetelegramfill.svg"
@@ -50,6 +60,9 @@ const FrameComponent = ({ className = "" }) => {
 
 FrameComponent.propTypes = {
   className: PropTypes.string,
+
+  /** Style props */
+  frameDivPadding: PropTypes.any,
 };
 
 export default FrameComponent;

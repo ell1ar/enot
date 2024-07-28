@@ -7,7 +7,7 @@ const FrameComponent4 = ({ className = "" }) => {
     <div className={`advantages-content-wrapper ${className}`}>
       <div className="advantages-content">
         <div className="advantages-heading">
-          <h1 className="h12">А у нас лучше</h1>
+          <h1 className="h17">А у нас лучше</h1>
         </div>
         <div className="advantages-list">
           <div className="advantage-items">
@@ -18,17 +18,17 @@ const FrameComponent4 = ({ className = "" }) => {
               src="/arrow@2x.png"
             />
           </div>
-          <div className="parent">
-            <div className="div7">
-              <div className="inner" />
-              <b className="b8">
+          <div className="parent6">
+            <div className="div28">
+              <div className="child9" />
+              <b className="b29">
                 <span>0</span>
                 <span className="span5">1</span>
               </b>
-              <b className="b9">Работаем 24/7</b>
-              <div className="div8">
-                <p className="p">Работаем круглые сутки и без выходных.</p>
-                <p className="p1">Без праздников. В дождь и снег</p>
+              <b className="b30">Работаем 24/7</b>
+              <div className="div29">
+                <p className="p6">Работаем круглые сутки и без выходных.</p>
+                <p className="p7">Без праздников. В дождь и снег</p>
               </div>
             </div>
             <Component

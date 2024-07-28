@@ -20,8 +20,8 @@ const RequirementIcons = ({
       style={requirementIconsStyle}
     >
       <div className="requirement-icons-item" />
-      <div className="icon2">
-        <div className="icon-child" />
+      <div className="icon3">
+        <div className="icon-item" />
         <img
           className="material-symbols-lightid-card-icon"
           loading="lazy"

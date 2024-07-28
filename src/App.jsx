@@ -6,6 +6,9 @@ import {
   useLocation,
 } from "react-router-dom";
 import Px from "./pages/Px";
+import Email1920Px from "./pages/email1920-px";
+import Email320Px from "./pages/email320-px";
+import Px1 from "./pages/px1";
 
 function App() {
   const action = useNavigationType();
@@ -24,6 +27,18 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/-email-1920-px":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/-email-320-px":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/320-px":
         title = "";
         metaDescription = "";
         break;
@@ -46,6 +61,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Px />} />
+      <Route path="/-email-1920-px" element={<Email1920Px />} />
+      <Route path="/-email-320-px" element={<Email320Px />} />
+      <Route path="/320-px" element={<Px1 />} />
     </Routes>
   );
 }

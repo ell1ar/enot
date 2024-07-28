@@ -1,0 +1,199 @@
+.child14 {
+  width: 290px;
+  height: 246px;
+  position: relative;
+  box-shadow: 0 0 15.55px rgba(32, 65, 66, 0.35);
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  display: none;
+}
+.b47,
+.div58 {
+  position: relative;
+  z-index: 1;
+}
+.b47 {
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray-100);
+}
+.div58 {
+  display: inline-block;
+  min-width: 103px;
+}
+.wrapper6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.b48 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray-100);
+  text-align: right;
+  min-width: 64px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-parent10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-child12 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-parent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-xs);
+}
+.div59,
+.div60 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 56px;
+  z-index: 1;
+}
+.div60 {
+  min-width: 34px;
+}
+.parent11 {
+  width: 137px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.b49,
+.b50 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.b49 {
+  min-width: 55px;
+  white-space: nowrap;
+}
+.b50 {
+  min-width: 103px;
+}
+.parent12 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-parent12,
+.frame-wrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}
+.frame-parent12 {
+  width: 206px;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.b51 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  background: linear-gradient(#313131, #313131), #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  min-width: 63px;
+}
+.button11,
+.div57,
+.frame-parent11 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.button11 {
+  cursor: pointer;
+  border: 2px solid var(--color-gold-100);
+  padding: var(--padding-2xs) var(--padding-xl);
+  background-color: var(--color-gold-200);
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  justify-content: center;
+  z-index: 1;
+}
+.div57,
+.frame-parent11 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent11 {
+  gap: var(--gap-lg);
+  font-size: var(--font-size-3xs);
+}
+.div57 {
+  box-shadow: 0 0 15.55px rgba(32, 65, 66, 0.35);
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  padding: var(--padding-lg) var(--padding-sm) var(--padding-sm);
+  gap: var(--gap-9xl);
+  z-index: 1;
+}
+.b52 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  z-index: 1;
+}
+.parent10,
+.px-inner2 {
+  display: flex;
+  align-items: flex-start;
+}
+.parent10 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+}
+.px-inner2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mini) var(--padding-81xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-onest);
+}

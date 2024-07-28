@@ -1,0 +1,98 @@
+.logo1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 26px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 51px;
+}
+.logo-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.a6 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-4xs);
+  line-height: 20px;
+  font-weight: 700;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 64px;
+}
+.button2,
+.logo-placeholder {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.button2 {
+  cursor: pointer;
+  border: 2px solid var(--color-mediumseagreen-100);
+  padding: var(--padding-10xs) var(--padding-5xs);
+  background-color: var(--color-mediumseagreen-300);
+  width: 84px;
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+}
+.logo-placeholder {
+  width: 276px;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-xl);
+}
+.logo-placeholder-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+}
+.email-320-px-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-mediumseagreen-300);
+  font-family: var(--font-montserrat);
+}
+.admin {
+  width: 54.1px;
+  height: 54.1px;
+  position: absolute;
+  margin: 0 !important;
+  top: -53.04px;
+  right: 67.97px;
+  border-radius: var(--br-xs);
+  background: linear-gradient(269.65deg, #ffd600, #ffa200),
+    radial-gradient(50% 50%at 50% 50%, #3cdf7d, #008d6b);
+  transform: rotate(60deg);
+  transform-origin: 0 0;
+}
+.email-320-px {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  line-height: normal;
+  letter-spacing: normal;
+}

@@ -3,14 +3,14 @@ import "./Component.css";
 
 const Component = ({ className = "", prop, prop1, prop2 }) => {
   return (
-    <div className={`div5 ${className}`}>
-      <div className="item" />
-      <b className="b6">
+    <div className={`div26 ${className}`}>
+      <div className="child8" />
+      <b className="b27">
         <span>0</span>
         <span className="span4">{prop}</span>
       </b>
-      <b className="b7">{prop1}</b>
-      <div className="div6">{prop2}</div>
+      <b className="b28">{prop1}</b>
+      <div className="div27">{prop2}</div>
     </div>
   );
 };

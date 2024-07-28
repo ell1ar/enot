@@ -5,18 +5,18 @@ const ContentWrapper = ({ className = "" }) => {
   return (
     <div className={`content-wrapper ${className}`}>
       <div className="baner">
-        <img className="bg-icon" alt="" src="/bg@2x.png" />
+        <img className="bg-icon2" alt="" src="/bg@2x.png" />
         <header className="banner-content">
           <div className="banner-nav-wrapper">
             <div className="banner-nav-list">
-              <a className="logo">logo</a>
+              <a className="logo2">logo</a>
               <div className="banner-nav-right">
                 <div className="banner-contact-list">
-                  <a className="a">Как получить</a>
-                  <a className="a1">Как вернуть</a>
-                  <a className="a2">О нас</a>
-                  <a className="a3">Пожаловаться</a>
-                  <a className="a4">Отписаться от услуг</a>
+                  <a className="a7">Как получить</a>
+                  <a className="a8">Как вернуть</a>
+                  <a className="a9">О нас</a>
+                  <a className="a10">Пожаловаться</a>
+                  <a className="a11">Отписаться от услуг</a>
                 </div>
               </div>
             </div>
@@ -25,21 +25,21 @@ const ContentWrapper = ({ className = "" }) => {
             <div className="banner-social-icons">
               <div className="mingcutetelegram-fill-parent">
                 <img
-                  className="mingcutetelegram-fill-icon"
+                  className="mingcutetelegram-fill-icon1"
                   loading="lazy"
                   alt=""
                   src="/mingcutetelegramfill.svg"
                 />
                 <img
-                  className="icround-email-icon"
+                  className="icround-email-icon1"
                   loading="lazy"
                   alt=""
                   src="/icroundemail.svg"
                 />
               </div>
             </div>
-            <button className="button">
-              <a className="a5">Регистрация</a>
+            <button className="button4">
+              <a className="a12">Регистрация</a>
             </button>
           </div>
         </header>
@@ -55,9 +55,9 @@ const ContentWrapper = ({ className = "" }) => {
                     alt=""
                     src="/mask-group@2x.png"
                   />
-                  <div className="div">
+                  <div className="div21">
                     <span className="span2">{`Нам `}</span>
-                    <b className="b">7</b>
+                    <b className="b21">7</b>
                     <span className="span3"> лет!</span>
                   </div>
                 </div>
@@ -69,14 +69,14 @@ const ContentWrapper = ({ className = "" }) => {
               </div>
               <div className="hero-description">
                 <div className="hero-paragraph">
-                  <h1 className="h1">Онлайн займы на вашу карту</h1>
+                  <h1 className="h15">Онлайн займы на вашу карту</h1>
                   <h3 className="h3">Первый займ может быть без процентов!*</h3>
                 </div>
               </div>
             </div>
             <div className="loan-benefits">
               <div className="benefits-content">
-                <b className="b1">Способы получения</b>
+                <b className="b22">Способы получения</b>
                 <div className="benefits-options">
                   <img
                     className="master-card-icon"
@@ -105,16 +105,16 @@ const ContentWrapper = ({ className = "" }) => {
             </div>
           </div>
           <div className="loan-calculator">
-            <div className="div1">
-              <div className="child" />
+            <div className="div22">
+              <div className="child7" />
               <div className="calculator-content">
-                <h1 className="h11">Калькулятор займа</h1>
+                <h1 className="h16">Калькулятор займа</h1>
                 <div className="calculator-inputs">
                   <div className="loan-amount-input">
                     <div className="loan-amount-label">
-                      <div className="div2">{`Требуемая сумма `}</div>
+                      <div className="div23">{`Требуемая сумма `}</div>
                     </div>
-                    <b className="b2">35 000 ₽</b>
+                    <b className="b23">35 000 ₽</b>
                   </div>
                   <div className="wrapper-group-26">
                     <img
@@ -128,18 +128,18 @@ const ContentWrapper = ({ className = "" }) => {
               </div>
               <div className="loan-results">
                 <div className="result-values">
-                  <div className="div3">Вы вернёте</div>
-                  <b className="b3">35 000 ₽</b>
+                  <div className="div24">Вы вернёте</div>
+                  <b className="b24">35 000 ₽</b>
                 </div>
                 <div className="result-values1">
-                  <div className="div4">Ставка</div>
-                  <b className="b4">Без процентов*</b>
+                  <div className="div25">Ставка</div>
+                  <b className="b25">Без процентов*</b>
                 </div>
               </div>
-              <button className="button1">
-                <b className="b5">Получить</b>
+              <button className="button5">
+                <b className="b26">Получить</b>
               </button>
-              <img className="icon" alt="" src="/12-1-1@2x.png" />
+              <img className="icon1" alt="" src="/12-1-1@2x.png" />
             </div>
           </div>
         </div>

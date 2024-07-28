@@ -7,7 +7,7 @@
   display: none;
   max-width: 100%;
 }
-.b13 {
+.b34 {
   position: relative;
   z-index: 1;
 }
@@ -50,7 +50,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .b13 {
+  .b34 {
     font-size: var(--font-size-lg);
   }
 }

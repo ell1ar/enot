@@ -1,0 +1,54 @@
+.enotsu,
+.span6 {
+  font-weight: 600;
+}
+.cookie1,
+.span7 {
+  font-family: var(--font-onest);
+}
+.span7 {
+  font-weight: 600;
+}
+.cookie {
+  color: var(--color-gray-200);
+}
+.enotsu-cookie-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  z-index: 1;
+}
+.enotsu1 {
+  font-weight: 600;
+  color: var(--color-white);
+}
+.enotsu-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  z-index: 1;
+  color: var(--color-gray-200);
+}
+.cookie-info-content {
+  width: 682px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.cookie-info-content-wrapper {
+  width: 954px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-onest);
+}

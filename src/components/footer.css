@@ -1,0 +1,31 @@
+.bg,
+.footer {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-200);
+}
+.bg {
+  height: 360px;
+  position: relative;
+  display: none;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0 var(--padding-21xl) var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .footer {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}

@@ -4,33 +4,33 @@ import "./FrameComponent1.css";
 
 const FrameComponent1 = ({ className = "" }) => {
   return (
-    <section className={`group ${className}`}>
-      <div className="div11">
-        <img className="bg-icon2" loading="lazy" alt="" src="/bg-2@2x.png" />
+    <section className={`parent7 ${className}`}>
+      <div className="div32">
+        <img className="bg-icon4" loading="lazy" alt="" src="/bg-2@2x.png" />
         <div className="footer-logo-wrapper">
-          <h1 className="h14">О процентах</h1>
+          <h1 className="h19">О процентах</h1>
         </div>
-        <div className="div12">
+        <div className="div33">
           <span>{`Проценты и пеня, начисленные по Договору потребительского займа, по закону не могут превышать `}</span>
-          <b className="b14">130%</b>
+          <b className="b35">130%</b>
           <span> от суммы займа.</span>
         </div>
-        <div className="div13">
+        <div className="div34">
           <span>{`Диапазон значений ПСК от `}</span>
-          <b className="b15">0,000%</b>
+          <b className="b36">0,000%</b>
           <span>{` до `}</span>
-          <b className="b16">292,000%</b>
+          <b className="b37">292,000%</b>
           <span>{`. Процентная ставка за пользование займом — `}</span>
-          <b className="b17">{`0,8% `}</b>
+          <b className="b38">{`0,8% `}</b>
           <span>{`в день; Пеня, начисленная за просрочку возврата займа рассчитывается по ставке `}</span>
-          <b className="b18">20%</b>
+          <b className="b39">20%</b>
           <span> годовых от суммы займа.</span>
         </div>
       </div>
       <div className="percentages-questions">
         <div className="questions-title-container-parent">
           <div className="questions-title-container">
-            <h1 className="h15">Частые вопросы</h1>
+            <h1 className="h110">Частые вопросы</h1>
           </div>
           <div className="questions-list">
             <div className="service-cost">
@@ -38,7 +38,7 @@ const FrameComponent1 = ({ className = "" }) => {
               <div className="cost-details-wrapper">
                 <div className="cost-details">
                   <h3 className="h33">Какова стоимость услуги?</h3>
-                  <div className="div14">
+                  <div className="div35">
                     Стоимость услуги всего 1875 рублей. Для вашего удобства
                     оплата услуги происходит в рассрочку: пять платежей по
                     375,00 рублей. Оплачивая услугу, вы получаете доступ к
@@ -47,10 +47,10 @@ const FrameComponent1 = ({ className = "" }) => {
                   </div>
                 </div>
               </div>
-              <div className="rectangle-parent">
-                <div className="frame-child" />
+              <div className="rectangle-parent2">
+                <div className="frame-child7" />
                 <img
-                  className="vector-icon"
+                  className="vector-icon1"
                   loading="lazy"
                   alt=""
                   src="/vector.svg"
