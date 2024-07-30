@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- JavaScript for loading components -->
+    <script defer src="js/loadComponents.js"></script>
+    <script defer src="js/wizard.js"></script>
+</head>
+
+<body id="wizard-page">
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <div class="row">
+        <div class="col-md-12 p-0">
+            <img src="/img/enot-head-min.png" class="img-responsive enot-head" />
+            <div id="wizard" class="wizard">
+
+                <div class="wizard-steps">
+                    <div class="wizard-step completed">1</div>
+                    <div class="wizard-line completed"></div>
+                    <div class="wizard-step">2</div>
+                    <div class="wizard-line"></div>
+                    <div class="wizard-step">3</div>
+                    <div class="wizard-line"></div>
+                    <div class="wizard-step">4</div>
+                    <div class="wizard-line"></div>
+                    <div class="wizard-step">5</div>
+                    <div class="wizard-line"></div>
+                    <div class="wizard-step">6</div>
+                </div>
+
+                <div class="wizard-content">
+                    <!-- Step 1 Content -->
+                    <div class="wizard-step-content active">
+                        <h4 class="mb-4">Личные данные</h4>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Электронная почта</label>
+                                <span class="icon"><i class="fas fa-exclamation-circle"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Имя</label>
+                                <span class="icon"><i class="fas fa-exclamation-circle"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group success">
+                                <input type="text" id="successInput" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="successInput">Успешный ввод</label>
+                                <span class="icon"><i class="fas fa-check-circle"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group error">
+                                <input type="text" id="errorInput" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="errorInput">Ошибка ввода</label>
+                                <span class="icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="form-check-input" id="no-name">
+                            <label for="no-name" class="form-check-label">Нет отчества</label>
+                        </div>
+                    </div>
+                    <!-- Step 2 Content -->
+                    <div class="wizard-step-content">
+                        <h4 class="mb-4">Паспортные данные</h4>
+                        <div class="row m-0">
+                            <div class="col-6 p-0 pr-2">
+                                <div class="form-group">
+                                    <div class="floating-label-group">
+                                        <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                        <label class="floating-label" for="middleName">Серия</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 p-0 pl-2">
+                                <div class="form-group">
+                                    <div class="floating-label-group">
+                                        <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                        <label class="floating-label" for="middleName">Номер</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group success">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Паспорт выдан</label>
+                                <span class="icon"><i class="fas fa-check-circle"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Код подразделения</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Дата выдачи</label>
+                                <span class="calendar-icon"><i class="fa-solid fa-calendar"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Дата рождения</label>
+                                <span class="calendar-icon"><i class="fa-solid fa-calendar"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Место рождения</label>
+                            </div>
+                        </div>
+                        <p class="label-for-checkbox">Пол</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-5">
+                                <input type="checkbox" class="form-check-input">
+                                <label class="form-check-label">Мужской</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="form-check-input">
+                                <label class="form-check-label">Женский</label>
+                            </div>
+                        </div>
+                        <div class="green-note d-flex align-items-center">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            <p>Все ваши данные надежно защищены и зашифрованы. Мы никому не передадим данные без вашего
+                                согласия.</p>
+                        </div>
+                    </div>
+                    <!-- Step 3 Content -->
+                    <div class="wizard-step-content">
+                        <h4 class="mb-4">Адрес регистрации и снилс</h4>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <select id="series" class="form-control">
+                                    <option value="" disabled selected></option>
+                                    <option value="option1">Ленинградская область</option>
+                                    <option value="option2">Московская область</option>
+                                </select>
+                                <label class="floating-label" for="series">Область</label>
+                                <i class="fa-solid fa-angle-down custom-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <select id="series" class="form-control">
+                                    <option value="" disabled selected></option>
+                                    <option value="option1">Ленинградская область</option>
+                                    <option value="option2">Московская область</option>
+                                </select>
+                                <label class="floating-label" for="series">Населённый пункт</label>
+                                <i class="fa-solid fa-angle-down custom-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Улица</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Дом</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group mb-2">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Квартира</label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="checkbox" class="form-check-input">
+                            <label class="form-check-label">Нет квартиры</label>
+                        </div>
+                        <div class="form-group">
+                            <div class="floating-label-group">
+                                <input type="text" id="middleName" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Снилс (необязательно)</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Step 4 Content -->
+                    <div class="wizard-step-content">
+                        <h4 class="mb-4">Подписание оферты</h4>
+                        <div class="oferta">
+                            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                                lobortis. Ut commodo efficitur neque.</p>
+                            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                                lobortis. Ut commodo efficitur neque.</p>
+                            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                                lobortis. Ut commodo efficitur neque.</p>
+                            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                                lobortis. Ut commodo efficitur neque.</p>
+                            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                                lobortis. Ut commodo efficitur neque.</p>
+                            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                                lobortis. Ut commodo efficitur neque.</p>
+                            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                                lobortis. Ut commodo efficitur neque.</p>
+                            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                                lobortis. Ut commodo efficitur neque.</p>
+                            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+                                lobortis. Ut commodo efficitur neque.</p>
+                        </div>
+                        <h5 class="mt-4" id="headerText">Входящий звонок</h5>
+                        <div class="form-group white">
+                            <div class="floating-label-group mb-0">
+                                <input type="text" id="successInput" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="successInput">Ваш номер</label>
+                                <button class="action small" id="requestSmsBtn">Запросить SMS</span>
+                            </div>
+                        </div>
+                        <p id="resendText" class="mt-1" style="display: none;">Отправить повторно через <span
+                                id="timer">0:59</span> сек.</p>
+
+                        <div class="green-note d-flex align-items-center">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            <p>Человек не будет звонить на ваш телефон и задавать вопросы. Система работает
+                                автоматически.</p>
+                        </div>
+                        <div class="form-group">
+                            <div class="mb-3 mt-4">
+                                <input type="checkbox" id="mainCheckbox" class="form-check-input">
+                                <label class="form-check-label" for="mainCheckbox">Я ознакомлен и согласен со
+                                    <a>следующим</a></label>
+                            </div>
+                            <div class="green-area">
+                                <div class="mb-3 d-flex justify-content-between">
+                                    <div>
+                                        <input type="checkbox" id="checkbox1"
+                                            class="form-check-input controlled-checkbox">
+                                        <label class="form-check-label" for="checkbox1">Правила предоставления
+                                            займов</label>
+                                    </div>
+                                    <a href=""><img class="mr-3" src="/img/pdf-green-min.png" /></a>
+                                </div>
+                                <div class="mb-3 d-flex justify-content-between">
+                                    <div>
+                                        <input type="checkbox" id="checkbox2"
+                                            class="form-check-input controlled-checkbox">
+                                        <label class="form-check-label" for="checkbox2">Соглашение об использовании
+                                            АСП</label>
+                                    </div>
+                                    <a href=""><img class="mr-3" src="/img/pdf-green-min.png" /></a>
+                                </div>
+                                <div class="mb-3 d-flex justify-content-between">
+                                    <div>
+                                        <input type="checkbox" id="checkbox3"
+                                            class="form-check-input controlled-checkbox">
+                                        <label class="form-check-label" for="checkbox3">Согласие на получение
+                                            рекламы</label>
+                                    </div>
+                                    <a href=""><img class="mr-3" src="/img/pdf-green-min.png" /></a>
+                                </div>
+                                <div class="mb-3 d-flex justify-content-between">
+                                    <div>
+                                        <input type="checkbox" id="checkbox4"
+                                            class="form-check-input controlled-checkbox">
+                                        <label class="form-check-label" for="checkbox4">Согласие на обработку
+                                            персональных данных</label>
+                                    </div>
+                                    <a href=""><img class="mr-3" src="/img/pdf-green-min.png" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Step 5 Content -->
+                    <div class="wizard-step-content">
+                        <h4>Выбор вашего банка</h4>
+                        <p class="sub-text">Выберите банк на карту которого, вы хотите получить займ</p>
+                        <div class="form-group mb-4">
+                            <div class="floating-label-group mb-2">
+                                <input type="text" id="bankSearch" class="form-control" placeholder=" " />
+                                <label class="floating-label" for="middleName">Название банка</label>
+                            </div>
+                        </div>
+                        <div class="bank-list" id="bankList">
+                            <div class="bank-item d-flex align-items-center">
+                                <img src="/img/sber-min.png" class="img-responsive" />
+                                <p>Сбербанк</p>
+                            </div>
+                            <div class="bank-item d-flex align-items-center">
+                                <img src="/img/sber-min.png" class="img-responsive" />
+                                <p>Тинькофф</p>
+                                <span class="bank-error-icon"><i class="fa-solid fa-circle-xmark"></i></span>
+                            </div>
+                            <div class="bank-item d-flex align-items-center">
+                                <img src="/img/sber-min.png" class="img-responsive" />
+                                <p>ВТБ</p>
+                            </div>
+                            <div class="bank-item d-flex align-items-center">
+                                <img src="/img/sber-min.png" class="img-responsive" />
+                                <p>Альфа</p>
+                            </div>
+                            <div class="bank-item d-flex align-items-center">
+                                <img src="/img/sber-min.png" class="img-responsive" />
+                                <p>ЕвропаБанк</p>
+                            </div>
+                            <div class="bank-item d-flex align-items-center">
+                                <img src="/img/sber-min.png" class="img-responsive" />
+                                <p>Ещё один банк</p>
+                            </div>
+                            <div class="bank-item d-flex align-items-center">
+                                <img src="/img/sber-min.png" class="img-responsive" />
+                                <p>Райфф</p>
+                            </div>
+                        </div>
+                        <div class="red-note">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            <p>К сожалению, с картами данного банка наш сервис временно не работает из-за технических
+                                проблем на стороне банка, пожалуйста выберите другой банк. Если у вас нет карты другого
+                                банка, можете посмотреть предложения наших партнеров, кликнув сюда</p>
+                        </div>
+                    </div>
+                    <!-- Step 6 Content -->
+                    <div class="wizard-step-content">
+                        <h4>Привязка карты</h4>
+                        <p class="sub-text">С вашей карты будет списан 1 рубль для проверки корректности ввода данных
+                        </p>
+                        <div class="credit-card-form">
+                            <div class="form-group">
+                                <label for="fullName">Имя и Фамилия</label>
+                                <input type="text" id="fullName" placeholder="Имя Фамилия" class="input-dashed">
+                            </div>
+
+                            <div class="form-group card-number">
+                                <label for="cardNumber">Номер карты</label>
+                                <div class="">
+                                    <input type="text" id="cardNumber" placeholder="0000 0000 0000 0000"
+                                        class="input-dashed">
+                                    <div class="cc-logos d-flex">
+                                        <img class="card-icon" src="/img/master-card-cc-min.png" />
+                                        <img class="card-icon" src="/img/visa-cc-min.png" />
+                                        <img class="card-icon" src="/img/mir-cc-min.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group card-details">
+                                <div class="expiry-date">
+                                    <label for="expiryDate">Действует до</label>
+                                    <div class="d-flex">
+                                        <input type="text" id="expiryDateMonth" placeholder="MM"
+                                            class="input-dashed short-input">
+                                        <input type="text" id="expiryDateYear" placeholder="ГГ"
+                                            class="input-dashed short-input">
+                                    </div>
+                                </div>
+                                <div class="cvc">
+                                    <label for="cvc">CVC</label>
+                                    <input type="text" id="cvc" placeholder="123" class="input-dashed short-input">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="green-note d-flex align-items-center">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            <p>Укажите номер карты, на которую вы планируете получить займ. Мы не сохраняем данные вашей
+                                карты в открытом виде и не списываем скрытые комиссии без вашего согласия.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wizard-buttons">
+                    <button class="action w-100" id="nextBtn">Далее</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tinkoff Modal -->
+    <div id="tinkoffModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="/img/bell-min.png" class="img-responsive" />
+            <p>К сожалению, с картами данного банка наш сервис временно не работает из-за технических проблем на стороне
+                банка, пожалуйста выберите другой банк. Если у вас нет карты другого банка, можете посмотреть
+                предложения наших партнеров, кликнув сюда</p>
+            <a href="/offers.html"><button class="action w-100" id="nextBtn">Предложения партнёров</button></a>
+        </div>
+    </div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>
