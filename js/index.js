@@ -12,47 +12,42 @@ const slides = Array.from(track.children);
 const nextButton = document.querySelector('#nextBtn');
 const prevButton = document.querySelector('#prevBtn');
 
-let slideWidth = slides[0].getBoundingClientRect().width;
+const slideWidthPercentage = 33.33;
+const additionalMarginPercentage = 0.5;
 
-const setSlidePosition = (slide, index) => {
-    slide.style.left = slideWidth * index + 'px';
-};
-const initializeCarousel = () => {
-    slideWidth = slides[0].getBoundingClientRect().width;
-    slides.forEach(setSlidePosition);
-    updateButtons();
+const updateButtons = () => {
+    const currentSlide = track.querySelector('.current-slide');
+    const currentIndex = slides.findIndex(slide => slide === currentSlide);
+
+    prevButton.classList.toggle('disabled', currentIndex === 0);
+    nextButton.classList.toggle('disabled', currentIndex >= slides.length - (window.innerWidth <= 768 ? 1 : 3));
 };
 
 const moveToSlide = (track, currentSlide, targetSlide) => {
-    track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+    const slideIndex = parseInt(targetSlide.dataset.index, 10);
+    let offset;
+
+    if (window.innerWidth <= 768) {
+        offset = slideIndex * 100;
+    } else {
+        offset = (slideIndex * slideWidthPercentage) + (slideIndex * additionalMarginPercentage);
+    }
+
+    track.style.transform = `translateX(-${offset}%)`;
     currentSlide.classList.remove('current-slide');
     targetSlide.classList.add('current-slide');
     updateButtons();
 };
-const updateButtons = () => {
-    const currentSlide = track.querySelector('.current-slide');
-    const currentIndex = slides.findIndex(slide => slide === currentSlide);
-    
-    if (currentIndex === 0) {
-        prevButton.classList.add('disabled');
-    } else {
-        prevButton.classList.remove('disabled');
-    }
-    if (window.innerWidth <= 768) {
-        if (currentIndex >= slides.length - 1) {
-            nextButton.classList.add('disabled');
-        } else {
-            nextButton.classList.remove('disabled');
-        }
-    } else {
-        if (currentIndex >= slides.length - 3) {
-            nextButton.classList.add('disabled');
-        } else {
-            nextButton.classList.remove('disabled');
-        }
-    }
+
+const initializeCarousel = () => {
+    slides.forEach((slide, index) => {
+        slide.dataset.index = index;
+    });
+    track.style.width = `${slides.length * 100}%`;
+    updateButtons();
 };
-prevButton.addEventListener('click', e => {
+
+prevButton.addEventListener('click', () => {
     const currentSlide = track.querySelector('.current-slide');
     const prevSlide = currentSlide.previousElementSibling;
 
@@ -60,16 +55,19 @@ prevButton.addEventListener('click', e => {
         moveToSlide(track, currentSlide, prevSlide);
     }
 });
-nextButton.addEventListener('click', e => {
+
+nextButton.addEventListener('click', () => {
     const currentSlide = track.querySelector('.current-slide');
     const nextSlide = currentSlide.nextElementSibling;
+
     if (nextSlide) {
         moveToSlide(track, currentSlide, nextSlide);
     }
 });
+
 window.addEventListener('load', initializeCarousel);
 window.addEventListener('resize', initializeCarousel);
-updateButtons();
+
 
 // Accordeon
 document.addEventListener('DOMContentLoaded', () => {
