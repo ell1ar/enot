@@ -385,10 +385,10 @@ header li.active a, header li:hover a  {
     margin-top: -90px;
     padding-top: 110px;
     background-image: 
-                url('/img/green-small-min.png'),
-                url('/img/green-big-min.png'),
-                url('/img/yellow-center-min.png'),
-                url('/img/yellow-min.png');
+                url('img/green-small-min.png'),
+                url('img/green-big-min.png'),
+                url('img/yellow-center-min.png'),
+                url('img/yellow-min.png');
             background-position: 
             60% 0,
             bottom right,
@@ -596,7 +596,7 @@ img.enot {
 
 /* THIRD ROW */
 #third {
-    background-image: url(/img/yellow-technic.png), url(/img/green-technic.png);
+    background-image: url(img/yellow-technic.png), url(img/green-technic.png);
     background-position: 50% 100%, 100% 0;
     background-repeat: no-repeat, no-repeat;
     background-color: white;
@@ -656,7 +656,7 @@ img.enot-technic {
 #fifth {
     background-color: #132F2E;
     padding: 65px 0;
-    background-image: url(/img/percent-yellow-small.png), url(/img/percent-green-small.png), url(/img/percent-green.png);
+    background-image: url(img/percent-yellow-small.png), url(img/percent-green-small.png), url(img/percent-green.png);
     background-position: 0 0, 50% 20%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
     position: relative;
@@ -738,7 +738,7 @@ img.enot-technic {
     margin: 10px auto 0 auto;
 }
 #wizard-page, #offers-page, #loan-services-page, #unsubscribe-page {
-    background-image: url(/img/small-green-left-min.png), url(/img/small-green-center-min.png), url(/img/small-yellow-top-min.png), url(/img/big-yellow-bottom-min.png);
+    background-image: url(img/small-green-left-min.png), url(img/small-green-center-min.png), url(img/small-yellow-top-min.png), url(img/big-yellow-bottom-min.png);
     background-position: 0 30%, 67% 30%, 67% 0, 100% 40%;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-color: #F6F7F8;
@@ -1221,7 +1221,7 @@ font-size: 30px;
 }
 
 .star.hover {
-    content: url('/img/money-yes.png');
+    content: url('img/money-yes.png');
 }
 /*******  MOBILES  *********/
 @media screen and (max-width:768px) {
@@ -1296,7 +1296,7 @@ button.action.small {
     background: rgba(19, 47, 46, 1);
     margin-top: -90px;
     padding-top: 93px;
-    background-image: url(/img/green-small-min.png), url(/img/enot-bg-min.png), url(/img/yellow-min.png);
+    background-image: url(img/green-small-min.png), url(img/enot-bg-min.png), url(img/yellow-min.png);
     background-position: 60% 0, 100% 40%, 0px 39%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
@@ -1426,7 +1426,7 @@ button.action.small {
 /* Third */
 #third {
     border-radius: 16px;
-    background-image: url(/img/small-yellow-top-min.png), url(/img/enot-bg-third-min-min.png);
+    background-image: url(img/small-yellow-top-min.png), url(img/enot-bg-third-min-min.png);
     background-position: 130% 0%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
 }
@@ -1475,7 +1475,7 @@ button.action.small {
 #fifth {
     background-color: #132F2E;
     padding: 25px 0;
-    background-image: url(/img/percent-yellow-small.png), url(/img/percent-green.png);
+    background-image: url(img/percent-yellow-small.png), url(img/percent-green.png);
     background-position: -123px 0px, -110% 122%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
