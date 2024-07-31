@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- JavaScript for loading components -->
+    <script defer src="js/loadComponents.js"></script>
+</head>
+
+<body id="unsubscribe-page">
+<!-- Header Placeholder -->
+<div id="header-placeholder"></div>
+
+<!-- Main Content -->
+<div class="row">
+    <div class="col-md-12 p-0">
+        <div id="unsubscribe" class="main-content pb-5 mt-md-5 mt-4">
+            <div class="top-content">
+                <div class="success-subscription" id="success-subscription">
+                    <img src="/img/4287997.png" class="img-fluid" />
+                    <h3>Пожаловаться</h3>
+                    <p>Наш сервис платного подбора займов всегда заботится о качестве предоставляемых услуг. Ваш комфорт - это наш главный приоритет. Пожалуйста, оцените работу нашей компании:</p>
+                    <div class="rating">
+                        <img src="/img/money-no.png" class="star" data-index="1">
+                        <img src="/img/money-no.png" class="star" data-index="2">
+                        <img src="/img/money-no.png" class="star" data-index="3">
+                        <img src="/img/money-no.png" class="star" data-index="4">
+                        <img src="/img/money-no.png" class="star" data-index="5">
+                    </div>
+                    <div class="text-center">
+                        <span class="total-count">Всего оценок <b>501</b></span>
+                    </div>
+                    <div class="green-note d-flex align-items-center mb-3 mb-md-0">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <p class="bottom-text ml-2">Если вы считаете, что вам оказали некачественный сервис, пожалуйста, сообщите нам об этом через электронную почту по адресу: plohoi@enot.su или в телеграм: @plohoienot Наши консультанты оперативно вам ответят и решат ваш вопрос.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-content row m-0">
+                <div class="col-md-4 col-6 mb-2">
+                    <div class="mini-loans">
+                        <img src="/img/offers-img-min.png" class="img-fluid" />
+                        <h4>Credit Bar</h4>
+                        <span class="loan-comission">Выдаёт под 0%</span>
+                        <div class="d-flex justify-content-between align-items-center mt-md-3 mb-md-3">
+                            <span class="sub-text">Одобрен до</span>
+                            <span class="amount-approved">10 000 ₽</span>
+                        </div>
+                        <button class="green">Перейти</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 mb-3">
+                    <div class="mini-loans">
+                        <img src="/img/offers-img-min.png" class="img-fluid" />
+                        <h4>Credit Bar</h4>
+                        <span class="loan-comission">Выдаёт под 0%</span>
+                        <div class="d-flex justify-content-between align-items-center mt-md-3 mb-md-3">
+                            <span class="sub-text">Одобрен до</span>
+                            <span class="amount-approved">10 000 ₽</span>
+                        </div>
+                        <button class="green">Перейти</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 mb-3">
+                    <div class="mini-loans">
+                        <img src="/img/offers-img-min.png" class="img-fluid" />
+                        <h4>Credit Bar</h4>
+                        <span class="loan-comission">Выдаёт под 0%</span>
+                        <div class="d-flex justify-content-between align-items-center mt-md-3 mb-md-3">
+                            <span class="sub-text">Одобрен до</span>
+                            <span class="amount-approved">10 000 ₽</span>
+                        </div>
+                        <button class="green">Перейти</button>
+                    </div>      
+                </div>
+            </div>
+            <a href="#" class="green-link">Показать ещё</a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Placeholder -->
+<div id="footer-placeholder"></div>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const stars = document.querySelectorAll('.star');
+
+    stars.forEach(star => {
+        star.addEventListener('mouseover', handleMouseOver);
+        star.addEventListener('mouseout', handleMouseOut);
+    });
+
+    function handleMouseOver(event) {
+        const index = parseInt(event.target.getAttribute('data-index'));
+        for (let i = 0; i < index; i++) {
+            stars[i].classList.add('hover');
+        }
+    }
+
+    function handleMouseOut(event) {
+        stars.forEach(star => {
+            star.classList.remove('hover');
+        });
+    }
+});
+</script>
+</script>
+</body>
+</html>

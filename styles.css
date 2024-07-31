@@ -32,6 +32,16 @@ button.action {
     font-weight: 700;
     outline: none;
 }
+button.grey {
+    outline: none;
+    background: #E8ECF0;
+    border: none;
+    border-radius: 14px;
+    color: #78837E;
+    font-size: 16px;
+    padding: 22px 64px;
+    font-weight: 600;
+}
 .sub-text {
     color: #78837E;
     font-size:15px;
@@ -375,10 +385,10 @@ header li.active a, header li:hover a  {
     margin-top: -90px;
     padding-top: 110px;
     background-image: 
-                url('img/green-small-min.png'),
-                url('img/green-big-min.png'),
-                url('img/yellow-center-min.png'),
-                url('img/yellow-min.png');
+                url('/img/green-small-min.png'),
+                url('/img/green-big-min.png'),
+                url('/img/yellow-center-min.png'),
+                url('/img/yellow-min.png');
             background-position: 
             60% 0,
             bottom right,
@@ -586,7 +596,7 @@ img.enot {
 
 /* THIRD ROW */
 #third {
-    background-image: url(img/yellow-technic.png), url(img/green-technic.png);
+    background-image: url(/img/yellow-technic.png), url(/img/green-technic.png);
     background-position: 50% 100%, 100% 0;
     background-repeat: no-repeat, no-repeat;
     background-color: white;
@@ -646,7 +656,7 @@ img.enot-technic {
 #fifth {
     background-color: #132F2E;
     padding: 65px 0;
-    background-image: url(img/percent-yellow-small.png), url(img/percent-green-small.png), url(img/percent-green.png);
+    background-image: url(/img/percent-yellow-small.png), url(/img/percent-green-small.png), url(/img/percent-green.png);
     background-position: 0 0, 50% 20%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
     position: relative;
@@ -727,8 +737,8 @@ img.enot-technic {
     display: block;
     margin: 10px auto 0 auto;
 }
-#wizard-page, #offers-page {
-    background-image: url(img/small-green-left-min.png), url(img/small-green-center-min.png), url(img/small-yellow-top-min.png), url(img/big-yellow-bottom-min.png);
+#wizard-page, #offers-page, #loan-services-page, #unsubscribe-page {
+    background-image: url(/img/small-green-left-min.png), url(/img/small-green-center-min.png), url(/img/small-yellow-top-min.png), url(/img/big-yellow-bottom-min.png);
     background-position: 0 30%, 67% 30%, 67% 0, 100% 40%;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-color: #F6F7F8;
@@ -1057,9 +1067,165 @@ font-size: 30px;
 #secondContent {
     padding: 0 45px;
 }
+/**** #### Loans Page ##### *******/ 
+#loan-services-page h3 {
+    font-size: 42px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 51px;
+}
+#loan-services-page p {
+    font-size: 20px;
+    color: #78837E;
+    line-height: 24px;
+    text-align:center;
+}
+.loan {
+    background-color: white;
+    border-radius: 24px;
+    padding: 35px;
+    box-shadow: 0 0 25px #a8a8a81a;
+    position: relative;
+}
+.loan h4 {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+}
+.loan .loan-comission {
+    color: #009E65;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+}
+.loan .viewed {
+    background: #009E65;
+    border-radius: 24px;
+    color: white;
+    font-size: 11px;
+    line-height: 24px;
+    padding: 2px 15px;
+    position: absolute;
+    right: 35px;
+    top: 35px;
+}
+.loan .amount-approved {
+    font-size: 30px;
+    font-weight: 700;
+}
+.loan .sub-text {
+    font-size: 13px;
+    color: #78837E;
+}
+#loan-services-page .green-note p {
+    font-size: 13px;
+    text-align: left;
+}
+#loan-services-page .green-note {
+    max-width: 500px;
+    padding: 25px 45px 25px 25px;
+}
+#loan-services-page .bottom-text {
+    font-size: 15px;
+}
+/***### UNSUBSCRIBE ###***/
+#unsubscribe-page h3 {
+    font-size: 30px;
+}
+#unsubscribe-page .top-content {
+    padding: 45px;
+    border-bottom: 2px solid #EAEFF3;
+}
+#unsubscribe-page .bottom-content {
+    padding: 45px;
+}
+#unsubscribe-page  .top-content p {
+    font-size: 15px;
+    color: #78837E;
+    text-align: center;
+}
+#unsubscribe-page  .form-check-label {
+    font-size: 15px;
+}
+.mini-loans {
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgb(168 168 168 / 25%);
+    padding: 15px;
+}
+.mini-loans img {
+    width: 52px;
+    display: block;
+    margin: 0 auto;
+}
+.mini-loans h4 {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+.mini-loans .loan-comission {
+    font-size: 13px;
+    margin-top: 0px;
+    text-align: center;
+    color: #009E65;
+    display: block;
+}
+.mini-loans .sub-text {
+    font-size: 13px;
+    margin: 0;
+    color: #78837E;
+}
+.mini-loans .amount-approved {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+}
+.mini-loans button.green {
+    display: block;
+    width: 100%;
+    background: rgb(0 158 101 / 25%);
+    color: #009E65;
+    font-weight: 700;
+    border: 1px solid rgb(46 175 129 / 12%);
+}
+.green-link {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #009E65;
+}
+#success-subscription img, #oops-subscription img {
+    display: block;
+    margin: 0 auto;
+}
+.total-count {
+    border-radius: 52px;
+    box-shadow: 0 0 25px rgb(168 168 168 / 25%);
+    font-size: 12px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.rating {
+    display: flex;
+    max-width: 285px;
+    margin: 35px auto;
+}
+
+.star {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.star.hover {
+    content: url('/img/money-yes.png');
+}
 /*******  MOBILES  *********/
 @media screen and (max-width:768px) {
-    
+
 .enot, .enot-technic, .percent-img {
     display: none!important;
 }
@@ -1073,8 +1239,12 @@ button.action {
     font-size: 12px;
     padding: 15px 45px!important;
 }
+button.grey {
+    padding: 22px 50px;
+}
 button.action.small {
     padding: 8px 15px !important;
+    border-radius: 8px;
 }
 .floating-label-group .floating-label {
     font-size: 10px;
@@ -1126,7 +1296,7 @@ button.action.small {
     background: rgba(19, 47, 46, 1);
     margin-top: -90px;
     padding-top: 93px;
-    background-image: url(img/green-small-min.png), url(img/enot-bg-min.png), url(img/yellow-min.png);
+    background-image: url(/img/green-small-min.png), url(/img/enot-bg-min.png), url(/img/yellow-min.png);
     background-position: 60% 0, 100% 40%, 0px 39%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
@@ -1256,7 +1426,7 @@ button.action.small {
 /* Third */
 #third {
     border-radius: 16px;
-    background-image: url(img/small-yellow-top-min.png), url(img/enot-bg-third-min-min.png);
+    background-image: url(/img/small-yellow-top-min.png), url(/img/enot-bg-third-min-min.png);
     background-position: 130% 0%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
 }
@@ -1305,7 +1475,7 @@ button.action.small {
 #fifth {
     background-color: #132F2E;
     padding: 25px 0;
-    background-image: url(img/percent-yellow-small.png), url(img/percent-green.png);
+    background-image: url(/img/percent-yellow-small.png), url(/img/percent-green.png);
     background-position: -123px 0px, -110% 122%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
@@ -1346,7 +1516,7 @@ button.action.small {
 }
 
 /** WIzARD **/
-#wizard-page .row, #offers-page .row {
+#wizard-page .row, #offers-page .row, #loan-services-page .row, #unsubscribe-page .row {
     margin: 0 3%;
 }
 .wizard, .main-content {
@@ -1409,6 +1579,129 @@ font-size: 10px;
 .credit-card-form .card-icon {
     max-width: 20px;
 }
+/**** #### Loans Page ##### *******/ 
+#loan-services-page h3 {
+    font-size: 18px;
+    line-height: 27px;
+}
+#loan-services-page p {
+    font-size: 12px;
+    line-height: 17px;
+}
+.loan img {
+    width: 60px;
+}
+.loan {
+    padding: 20px;
+}
+.loan h4 {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+.loan .loan-comission {
+    font-size: 12px;
+    line-height: 19px;
+}
+.loan .viewed {
+    border-radius: 24px;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 2px 5px;
+    top: 20px;
+    right: 20px;
+}
+.loan .amount-approved {
+    font-size: 16px;
+}
+.loan .sub-text {
+    font-size: 10px;
+}
+#loan-services-page .green-note p {
+    font-size: 13px;
+    text-align: left;
+}
+#loan-services-page .green-note {
+    max-width: 500px;
+    padding: 25px 45px 25px 25px;
+}
+#loan-services-page .bottom-text {
+    font-size: 15px;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+#loan-services-page .appr {
+font-size: 12px;
+line-height: 17px;
+text-align: center;
+display: block;
+margin: 0 auto;
+}
+/***### UNSUBSCRIBE ###***/
+#unsubscribe-page h3 {
+    font-size: 16px;
+    line-height: 25px;
+}
+#unsubscribe-page .top-content {
+    padding: 20px;
+    border-bottom: 1px solid #EAEFF3;
+}
+#unsubscribe-page .bottom-content {
+    padding: 20px;
+}
+#unsubscribe-page  .top-content p {
+    font-size: 12px;
+    color: #78837E;
+    text-align: center;
+}
+#unsubscribe-page  .form-check-label {
+    font-size: 12px;
+}
+.mini-loans {
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgb(168 168 168 / 25%);
+    padding: 15px;
+}
+.mini-loans img {
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+}
+.mini-loans h4 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.mini-loans .loan-comission {
+    font-size: 10px;
+}
+.mini-loans .sub-text {
+    font-size: 10px;
+}
+.mini-loans .amount-approved {
+    font-size: 9px;
+    font-weight: 700;
+    margin: 0;
+}
+.mini-loans button.green {
+    font-size: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.green-link {
+    font-size: 9px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+#success-subscription img, #oops-subscription img  {
+width: 84px;
+}
+.star {
+    width: 40px;
+}
 }
 @media (min-width:1440px) and (max-width:1920px) {
     footer li {
@@ -1425,5 +1718,8 @@ font-size: 10px;
     img.enot-technic {
         margin-top: 0;
         margin-left: 0;
+    }
+    .loan img {
+        width: 85px;
     }
 }
